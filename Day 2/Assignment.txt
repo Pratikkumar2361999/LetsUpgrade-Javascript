@@ -1,10 +1,9 @@
 Assignment Day 2
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ans 1:-
+Ans 1:
   var inp = window.prompt("Give input: ");
   console.log(inp);
-  
   
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Ans 2:
@@ -34,11 +33,9 @@ repeat():-	Returns a new string with a specified number of copies of an existing
 toLowerCase():-	Converts a string to lowercase letters
 toString():-	Returns the value of a String object
 
-
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
-Ans 3:-
-  
+Ans 3:
   
   if(confirm("Is your age 21+")){
     console.log("Can Drink");
