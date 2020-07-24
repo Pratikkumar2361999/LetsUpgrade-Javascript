@@ -1,0 +1,12 @@
+Assignnment Day 6
+---------------------------------------------------------------------------------------------------------------------------------
+
+Ans 1:
+        var i =0;
+        var col = ["red","blue","cyan"];
+         setInterval(() => {
+
+            element = col[(i++)%col.length];
+            document.body.style.backgroundColor = element; 
+            console.log(element); 
+         }, 1000);
