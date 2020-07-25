@@ -86,5 +86,16 @@ Ans 2:
         
 ---------------------------------------------------------------------------------------------------------------------------------
 Ans 3:
-        
+        fetch('http://jsonplaceholder.typicode.com/todos')
+        .then(response=>
+            response.json()
+        )
+        .then(data=>{
+            let filteredResponse = data.filter(dataItem => {
+                return dataItem.completed
+            })
+            filteredResponse.forEach(element => {
+               console.log(element);
+            });
+        })
         
