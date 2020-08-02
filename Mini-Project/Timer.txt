@@ -88,6 +88,6 @@ Q: Write a program to make a Stopwatch. Which takes the timer to  be set from us
     <button onclick="startTimer()" id="set">Start Timer</button>
     <p id="error"></p>
     <button onclick="reset()" id="reset">reset</button>
-    <h1 id="clock" style="font-size: 50px;"></h1>
+    <h1 id="clock" style="font-size: 50px;">0:0:0</h1>
 </body>
 </html>
